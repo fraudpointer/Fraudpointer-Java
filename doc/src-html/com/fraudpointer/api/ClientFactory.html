@@ -1,0 +1,107 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    package com.fraudpointer.api;<a name="line.1"></a>
+<FONT color="green">002</FONT>    <a name="line.2"></a>
+<FONT color="green">003</FONT>    import com.fraudpointer.api.clients.Client;<a name="line.3"></a>
+<FONT color="green">004</FONT>    <a name="line.4"></a>
+<FONT color="green">005</FONT>    /**<a name="line.5"></a>
+<FONT color="green">006</FONT>     * This is a helping class that instantiates an object that implements IClient interface. &lt;br/&gt;<a name="line.6"></a>
+<FONT color="green">007</FONT>     * &lt;br/&gt;<a name="line.7"></a>
+<FONT color="green">008</FONT>     * Use this method to start with FraudPointer API. It will give you an object that properly implements IClient interface.<a name="line.8"></a>
+<FONT color="green">009</FONT>     */<a name="line.9"></a>
+<FONT color="green">010</FONT>    public class ClientFactory {<a name="line.10"></a>
+<FONT color="green">011</FONT>    <a name="line.11"></a>
+<FONT color="green">012</FONT>        /**<a name="line.12"></a>
+<FONT color="green">013</FONT>         * Instantiates an object that properly implements IClient interface. &lt;br/&gt;<a name="line.13"></a>
+<FONT color="green">014</FONT>         * &lt;br/&gt;<a name="line.14"></a>
+<FONT color="green">015</FONT>         * Start your FraudPointer API usage from here. It will give you an instance of an object that properly implements the IClient interface.&lt;br/&gt;<a name="line.15"></a>
+<FONT color="green">016</FONT>         * &lt;br/&gt;<a name="line.16"></a>
+<FONT color="green">017</FONT>         * Here is an example of usage:&lt;br/&gt;<a name="line.17"></a>
+<FONT color="green">018</FONT>         * &lt;br/&gt;<a name="line.18"></a>
+<FONT color="green">019</FONT>         * &lt;pre&gt;<a name="line.19"></a>
+<FONT color="green">020</FONT>         * IClient client = ClientFactory.construct("https://production.fraudpointer.com/api", "111118312453678901abcdef123456789328");<a name="line.20"></a>
+<FONT color="green">021</FONT>         * &lt;/pre&gt;<a name="line.21"></a>
+<FONT color="green">022</FONT>         * &lt;br/&gt;<a name="line.22"></a>
+<FONT color="green">023</FONT>         * @param baseUrl This is the URL of the FraudPointer API Service. It has to have the value: &lt;code&gt;https://production.fraudpointer.com/api&lt;/code&gt;<a name="line.23"></a>
+<FONT color="green">024</FONT>         * @param apiKey This should be the API KEY that corresponds to the domain that you integrate FraudPointer API for. The API KEY is automatically generated when<a name="line.24"></a>
+<FONT color="green">025</FONT>         * you register an Account in &lt;a href="https://production.fraudpointer.com/a/new" target="_blank"&gt;FraudPointer Registration Web Form&lt;/a&gt;.<a name="line.25"></a>
+<FONT color="green">026</FONT>         * Note that your Account in FraudPointer service might have more than one domains registered. You need to provide here the API KEY that<a name="line.26"></a>
+<FONT color="green">027</FONT>         * corresponds to the domain that you are going to integrate this client with.<a name="line.27"></a>
+<FONT color="green">028</FONT>         * @return A valid IClient instantiated object. This is a newly created object to work with the FraudPointer Service.<a name="line.28"></a>
+<FONT color="green">029</FONT>         */<a name="line.29"></a>
+<FONT color="green">030</FONT>        public static IClient construct (String baseUrl, String apiKey)<a name="line.30"></a>
+<FONT color="green">031</FONT>        {<a name="line.31"></a>
+<FONT color="green">032</FONT>            return new Client(baseUrl, apiKey);<a name="line.32"></a>
+<FONT color="green">033</FONT>    <a name="line.33"></a>
+<FONT color="green">034</FONT>        } // construct()<a name="line.34"></a>
+<FONT color="green">035</FONT>        // -------------<a name="line.35"></a>
+<FONT color="green">036</FONT>    <a name="line.36"></a>
+<FONT color="green">037</FONT>        private ClientFactory(){}<a name="line.37"></a>
+<FONT color="green">038</FONT>    <a name="line.38"></a>
+<FONT color="green">039</FONT>    } // class ClientFactory<a name="line.39"></a>
+<FONT color="green">040</FONT>    //-----------------------<a name="line.40"></a>
+<FONT color="green">041</FONT>    <a name="line.41"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>

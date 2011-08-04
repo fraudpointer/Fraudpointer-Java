@@ -1,0 +1,6 @@
+com.fraudpointer
+com.fraudpointer.api
+com.fraudpointer.api.clients
+com.fraudpointer.api.models
+com.fraudpointer.api.requestwrappers
+com.fraudpointer.api.responsewrappers

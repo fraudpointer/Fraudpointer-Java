@@ -1,0 +1,99 @@
+<HTML>
+<BODY BGCOLOR="white">
+<PRE>
+<FONT color="green">001</FONT>    package com.fraudpointer.api.models;<a name="line.1"></a>
+<FONT color="green">002</FONT>    <a name="line.2"></a>
+<FONT color="green">003</FONT>    /**<a name="line.3"></a>
+<FONT color="green">004</FONT>     * An Assessment Session is the object returned when you call {@link com.fraudpointer.api.IClient#createAssessmentSession()}, which is the<a name="line.4"></a>
+<FONT color="green">005</FONT>     * first method that you need to call to start interacting with the FraudPointer Server.&lt;br/&gt;<a name="line.5"></a>
+<FONT color="green">006</FONT>     * &lt;br/&gt;<a name="line.6"></a>
+<FONT color="green">007</FONT>     * When you want to start interaction with FraudPointer Server you need to call {@link com.fraudpointer.api.IClient#createAssessmentSession()}. This<a name="line.7"></a>
+<FONT color="green">008</FONT>     * method will return to you an instance of AssessmentSession. After its creation, you use this object in the<a name="line.8"></a>
+<FONT color="green">009</FONT>     * following cases:&lt;br/&gt;<a name="line.9"></a>
+<FONT color="green">010</FONT>     * &lt;br/&gt;<a name="line.10"></a>
+<FONT color="green">011</FONT>     * &lt;ul&gt;<a name="line.11"></a>
+<FONT color="green">012</FONT>     *     &lt;li&gt;When you want to add an Event object to this Assessment Session ({@link com.fraudpointer.api.IClient#appendEventToAssessmentSession(AssessmentSession, Event)}).&lt;/li&gt;<a name="line.12"></a>
+<FONT color="green">013</FONT>     *     &lt;li&gt;When you want to create {@link com.fraudpointer.api.IClient#createFraudAssessment(AssessmentSession, boolean)} }or get a FraudAssessment {@link com.fraudpointer.api.IClient#getFraudAssessment(AssessmentSession, String)}}.&lt;/li&gt;<a name="line.13"></a>
+<FONT color="green">014</FONT>     *     &lt;li&gt;When you want to embed the session id in your html content, in the hidden field value<a name="line.14"></a>
+<FONT color="green">015</FONT>     *     that is used by Fraudpointer javascript (see: &lt;a href="{@docRoot}/com/fraudpointer/api/package-summary.html#device_fingerprinting"&gt;Device Fingerprinting&lt;/a&gt;)&lt;/li&gt;<a name="line.15"></a>
+<FONT color="green">016</FONT>     * &lt;/ul&gt;<a name="line.16"></a>
+<FONT color="green">017</FONT>     */<a name="line.17"></a>
+<FONT color="green">018</FONT>    public class AssessmentSession {<a name="line.18"></a>
+<FONT color="green">019</FONT>    <a name="line.19"></a>
+<FONT color="green">020</FONT>        /**<a name="line.20"></a>
+<FONT color="green">021</FONT>         * Unique id for the created session returned by the server. &lt;br/&gt;<a name="line.21"></a>
+<FONT color="green">022</FONT>         * &lt;br/&gt;<a name="line.22"></a>
+<FONT color="green">023</FONT>         * When you call {@link com.fraudpointer.api.IClient#createAssessmentSession()} you get an instantiated object whose only property is<a name="line.23"></a>
+<FONT color="green">024</FONT>         * AssessmentSession.id. This &lt;code&gt;id&lt;/code&gt; itself, is useful when you want to embed it in your html content, in<a name="line.24"></a>
+<FONT color="green">025</FONT>         * the hidden field value that is used by FraudPointer javascript &lt;c&gt;fp.js&lt;/c&gt;<a name="line.25"></a>
+<FONT color="green">026</FONT>         */<a name="line.26"></a>
+<FONT color="green">027</FONT>        public String id;<a name="line.27"></a>
+<FONT color="green">028</FONT>    <a name="line.28"></a>
+<FONT color="green">029</FONT>    } // class AssessmentSession<a name="line.29"></a>
+<FONT color="green">030</FONT>    //--------------------------<a name="line.30"></a>
+<FONT color="green">031</FONT>    <a name="line.31"></a>
+<FONT color="green">032</FONT>    <a name="line.32"></a>
+<FONT color="green">033</FONT>    <a name="line.33"></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PRE>
+</BODY>
+</HTML>
