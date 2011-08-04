@@ -24,9 +24,9 @@ out of it, as quickly and easily as possible.
 If you download the contents of this repository you will get:
 
 * A folder with all the API reference. This is folder {doc}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/doc]. Click on <tt>index.html</tt> and you are ready to browse it.
-* A folder with all the jars of the external libraries needed to compile the code. This is the folder {external_libraries}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/doc].
+* A folder with all the jars of the external libraries needed to compile the code. This is the folder {external_libraries}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/external_libraries].
 * A folder with all the source code. Apparently, folder with name {src}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/src].
-* An ant build xml file {fraudpointer_client.xml}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/fraudpointer_client.xml]. If you just <tt>ant -buildfile fraudpointer_client.xml</tt> on the root folder you will get everything built. Note that the jdk used is 1.6 and it is assumed to be homed in <tt>/user/bin/jdk1.6.0_24</tt>. Edit file {fraudpointer_client.properties}[../fraudpointer_client.properties] before running ant and set it where your jdk home is.
+* An ant build xml file {fraudpointer_client.xml}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/fraudpointer_client.xml]. If you just <tt>ant -buildfile fraudpointer_client.xml</tt> on the root folder you will get everything built. Note that the jdk used is 1.6 and it is assumed to be homed in <tt>/user/bin/jdk1.6.0_24</tt>. Edit file {fraudpointer_client.properties}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/fraudpointer_client.properties] before running ant and set it where your jdk home is.
 * A file that is used to generate the javadoc-generated documenation. This file is {gendoc.sh}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/gendoc.sh].
 
 == How to build the whole project and get the jar you need for your application?
