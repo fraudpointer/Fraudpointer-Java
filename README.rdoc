@@ -23,19 +23,19 @@ out of it, as quickly and easily as possible.
 
 If you download the contents of this repository you will get:
 
-* A folder with all the API reference. This is folder {doc}[link:../doc]. Click on <tt>index.html</tt> and you are ready to browse it.
-* A folder with all the jars of the external libraries needed to compile the code. This is the folder {external_libraries}[link:../external_libraries].
-* A folder with all the source code. Apparently, folder with name {src}[link:../src].
-* An ant build xml file {fraudpointer_client.xml}[link:../fraudpointer_client.xml]. If you just <tt>ant -buildfile fraudpointer_client.xml</tt> on the root folder you will get everything built. Note that the jdk used is 1.6 and it is assumed to be homed in <tt>/user/bin/jdk1.6.0_24</tt>. Edit file {fraudpointer_client.properties}[../fraudpointer_client.properties] before running ant and set it where your jdk home is.
-* A file that is used to generate the javadoc-generated documenation. This file is {gendoc.sh}[link:../gendoc.sh].
+* A folder with all the API reference. This is folder {doc}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/doc]. Click on <tt>index.html</tt> and you are ready to browse it.
+* A folder with all the jars of the external libraries needed to compile the code. This is the folder {external_libraries}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/doc].
+* A folder with all the source code. Apparently, folder with name {src}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/src].
+* An ant build xml file {fraudpointer_client.xml}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/fraudpointer_client.xml]. If you just <tt>ant -buildfile fraudpointer_client.xml</tt> on the root folder you will get everything built. Note that the jdk used is 1.6 and it is assumed to be homed in <tt>/user/bin/jdk1.6.0_24</tt>. Edit file {fraudpointer_client.properties}[../fraudpointer_client.properties] before running ant and set it where your jdk home is.
+* A file that is used to generate the javadoc-generated documenation. This file is {gendoc.sh}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/gendoc.sh].
 
 == How to build the whole project and get the jar you need for your application?
 
 You can immediately use "ant" to do that. We have the build file ready for you. The build file is:
 
-{fraudpointer_client.xml}[link:../fraudpointer_client.xml]
+{fraudpointer_client.xml}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/fraudpointer_client.xml]
 
-You need to make sure that file {fraudpointer_client.properties}[link:../fraudpointer_client.properties] points to your jdk home.
+You need to make sure that file {fraudpointer_client.properties}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/fraudpointer_client.properties] points to your jdk home.
 
 Then you just need to type in and run the following command on your command prompt:
 
@@ -63,7 +63,7 @@ Account, go ahead and create one {here}[https://production.fraudpointer.com/a/ne
 
 We have it ready for you there:
 
-<tt>{doc}[link:../doc]</tt>
+<tt>{doc}[https://github.com/fraudpointer/Fraudpointer-Java/tree/master/doc]</tt>
 
 Or, you can always generate it by running the following command on your command prompt:
 
